@@ -10,13 +10,16 @@ You can find here the materials for the the doctoral school _AIPHY_ (_Artificial
 Hands-on sessions are presented as _Jupyter_ notebooks.
 
 ## Installation
-_Jupyter_ notebooks are supposed to be used on the CINECA school account. Follow the guide to run the forward2 bash script
-Notebooks should work fine in Colab.
+_Jupyter_ notebooks are supposed to be used on the CINECA school account. Follow the guide to run the forward2 bash script.
+
+Notebooks should also work fine in Colab.
+
 On your login node home, create a folder
 ```bash
 mkdir MLtools
 cd MLtools
 ```
+
 Then, clone this repository
 ```bash
  git clone https://github.com/pumazzo/AIPHY24.git
