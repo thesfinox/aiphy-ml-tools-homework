@@ -26,3 +26,11 @@ Then, clone this repository
 ```
 
 The notebook should automatically make a local copy of the data from my account on the CINECA machine
+
+If the 30 minutes time constrain for the _slurm_ process is too binding, you can modify it going into the _leonardo/jupyter-conda_.
+
+Look for this line and change it to a larger time
+
+```bash
+#SBATCH -t 02:30:00
+```
